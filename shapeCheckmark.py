@@ -1,0 +1,10 @@
+import turtle
+window = turtle.Screen()
+window.bgcolor('lightgreen')
+leo = turtle.Turtle()
+leo.pencolor('blue')
+leo.right(45)
+leo.forward(70)
+leo.left(90)
+leo.forward(150)
+window.exitonclick()
